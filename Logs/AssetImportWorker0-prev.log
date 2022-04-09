@@ -1,0 +1,1027 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.28f1 (f5400f52e03f) revision 16072719'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'en' Physical Memory: 16253 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.28f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Unity/SunyLand
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51548
+Successfully changed project path to: C:/Unity/SunyLand
+C:/Unity/SunyLand
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 89.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.28f1 (f5400f52e03f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Unity/SunyLand/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Vendor:   
+    VRAM:     2988 MB
+    Driver:   30.0.14.7122
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001225 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 88.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.511 seconds
+Domain Reload Profiling:
+	ReloadAssembly (511ms)
+		BeginReloadAssembly (45ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (410ms)
+			LoadAssemblies (44ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (122ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (188ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (66ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004144 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 90.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.010 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1010ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (842ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (273ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (346ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (90ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2780 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.5 MB.
+System memory in use after: 122.5 MB.
+
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 3192.
+Total: 3.125800 ms (FindLiveObjects: 0.210800 ms CreateObjectMapping: 0.120400 ms MarkObjects: 2.625500 ms  DeleteObjects: 0.168100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Level 2.unity
+  artifactKey: Guid(70b3e75dd5e46ca4fb0b13ebbdddfdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 2.unity using Guid(70b3e75dd5e46ca4fb0b13ebbdddfdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a32f476f4cef67b826cbba88845146c') in 0.011747 seconds 
+  Import took 0.015874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 281.554510 seconds.
+  path: Assets/AssetsDoAn/Nature_pixel_art_assets/textures/nature_environment_01.png
+  artifactKey: Guid(962e67ff7370f0c4492dca70b64f89e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Nature_pixel_art_assets/textures/nature_environment_01.png using Guid(962e67ff7370f0c4492dca70b64f89e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f677b0c772b07cc6cc607d509a050b') in 0.315066 seconds 
+  Import took 0.320047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/AssetsDoAn/Nature_pixel_art_assets/textures/Nature_props_01.png
+  artifactKey: Guid(4b00c4fcb1be91245b2dab5149c61c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Nature_pixel_art_assets/textures/Nature_props_01.png using Guid(4b00c4fcb1be91245b2dab5149c61c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab859d18a233658ea64f8f05f39b673c') in 0.105719 seconds 
+  Import took 0.109487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.928428 seconds.
+  path: Assets/AssetsDoAn/Pixel Adventure 2
+  artifactKey: Guid(936005f4a7c6d194c97ee75359c55a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Pixel Adventure 2 using Guid(936005f4a7c6d194c97ee75359c55a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3a7cc5f16777ad6145078f38a09749') in 0.002844 seconds 
+  Import took 0.007887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.221217 seconds.
+  path: Assets/AssetsDoAn/Pixel Adventure 2/Assets
+  artifactKey: Guid(071d787a6f60c1b4ab902be3a5c0bb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Pixel Adventure 2/Assets using Guid(071d787a6f60c1b4ab902be3a5c0bb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1dc563fc08316e3877cb6352bc7b63') in 0.002771 seconds 
+  Import took 0.007753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.752305 seconds.
+  path: Assets/AssetsDoAn/Pixel Adventure 2/Assets/Enemies
+  artifactKey: Guid(e5805f60560d8ea4e833edc54fd915f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Pixel Adventure 2/Assets/Enemies using Guid(e5805f60560d8ea4e833edc54fd915f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fcf2f2f2d22f36e35a735912f111d90') in 0.001383 seconds 
+  Import took 0.006882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.817551 seconds.
+  path: Assets/AssetsDoAn/Pixel Adventure 2/Assets/Enemies/AngryPig
+  artifactKey: Guid(dfeb35766a5577b42b8973fd320536b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Pixel Adventure 2/Assets/Enemies/AngryPig using Guid(dfeb35766a5577b42b8973fd320536b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f056a3f81dd0155681c920c0df3ec666') in 0.001414 seconds 
+  Import took 0.006255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.730352 seconds.
+  path: Assets/AssetsDoAn/Pixel Adventure 2/Assets/Enemies/Bee
+  artifactKey: Guid(84791849dcd5c6a42b24df8d554bb840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Pixel Adventure 2/Assets/Enemies/Bee using Guid(84791849dcd5c6a42b24df8d554bb840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f034318b64c021d9565966cccfeb08') in 0.002873 seconds 
+  Import took 0.007499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.319695 seconds.
+  path: Assets/AssetsDoAn/Pixel Adventure 2/Assets/Enemies/BlueBird
+  artifactKey: Guid(b12c983713fcef941b67d3ebf1e38b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Pixel Adventure 2/Assets/Enemies/BlueBird using Guid(b12c983713fcef941b67d3ebf1e38b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfefd7ee822c9dc560907d5febf7481') in 0.002662 seconds 
+  Import took 0.007576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.311527 seconds.
+  path: Assets/AssetsDoAn/Pixel Adventure 2/Assets/Enemies/Chameleon
+  artifactKey: Guid(2e2966dcee54afc41971cf92e32dea6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Pixel Adventure 2/Assets/Enemies/Chameleon using Guid(2e2966dcee54afc41971cf92e32dea6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1308ca02226442b42bb67d964e7060') in 0.001713 seconds 
+  Import took 0.006390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.434441 seconds.
+  path: Assets/AssetsDoAn/Pixel Adventure 2/Assets/Enemies/Duck
+  artifactKey: Guid(16caa298699433d4893656f2f7f35846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Pixel Adventure 2/Assets/Enemies/Duck using Guid(16caa298699433d4893656f2f7f35846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5538f748dd184918ced717842a6a6f59') in 0.001916 seconds 
+  Import took 0.007288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.595695 seconds.
+  path: Assets/AssetsDoAn/Pixel Adventure 2/Assets/Enemies/Ghost
+  artifactKey: Guid(838e5abb9ce054f4a84cf9126d33b4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Pixel Adventure 2/Assets/Enemies/Ghost using Guid(838e5abb9ce054f4a84cf9126d33b4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f0a1dc1a93344dfe09b25cabd978bc') in 0.003371 seconds 
+  Import took 0.008405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071584 seconds.
+  path: Assets/AssetsDoAn/Pixel Adventure 2/Assets/Enemies/Ghost/Appear (44x30).png
+  artifactKey: Guid(a26831e3796d4f6498e8400f4a01326b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Pixel Adventure 2/Assets/Enemies/Ghost/Appear (44x30).png using Guid(a26831e3796d4f6498e8400f4a01326b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda5c3778d6a177f493b0f59b3ff8326') in 0.020736 seconds 
+  Import took 0.026036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/AssetsDoAn/Pixel Adventure 2/Assets/Enemies/Ghost/Hit (44x30).png
+  artifactKey: Guid(fe0d305c386c24f49b22110bd836c48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Pixel Adventure 2/Assets/Enemies/Ghost/Hit (44x30).png using Guid(fe0d305c386c24f49b22110bd836c48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc65ec948eaae4a407326e3860850f6') in 0.020918 seconds 
+  Import took 0.025042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/AssetsDoAn/Pixel Adventure 2/Assets/Enemies/Ghost/Gost Particles (16x16).png
+  artifactKey: Guid(14048ba4b41a50449a2a86a01088f5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Pixel Adventure 2/Assets/Enemies/Ghost/Gost Particles (16x16).png using Guid(14048ba4b41a50449a2a86a01088f5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae21c6ebb5584f9876be2c950503bd6c') in 0.016971 seconds 
+  Import took 0.021263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/AssetsDoAn/Pixel Adventure 2/Assets/Enemies/Ghost/Desappear (44x30).png
+  artifactKey: Guid(0aff58a705260724ba202eab0ca4f5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Pixel Adventure 2/Assets/Enemies/Ghost/Desappear (44x30).png using Guid(0aff58a705260724ba202eab0ca4f5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f612d1444fa7344057d43c27273112') in 0.016807 seconds 
+  Import took 0.020533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/AssetsDoAn/Pixel Adventure 2/Assets/Enemies/Ghost/Idle (44x30).png
+  artifactKey: Guid(d4f2f936f814df24fb7559370c465cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Pixel Adventure 2/Assets/Enemies/Ghost/Idle (44x30).png using Guid(d4f2f936f814df24fb7559370c465cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7992def392c74615958777aeacad09ca') in 0.035061 seconds 
+  Import took 0.038808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.319661 seconds.
+  path: Assets/AssetsDoAn/Tasty_Characters - Castle Pack
+  artifactKey: Guid(6ee9805342b944d459ff5a55ac553eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Tasty_Characters - Castle Pack using Guid(6ee9805342b944d459ff5a55ac553eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3a75b5db4dcfd993c9442e796cda44') in 0.002959 seconds 
+  Import took 0.007809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.111168 seconds.
+  path: Assets/AssetsDoAn/Tasty_Characters - Castle Pack/Assets
+  artifactKey: Guid(d0b2d399442278d41b77394708661681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Tasty_Characters - Castle Pack/Assets using Guid(d0b2d399442278d41b77394708661681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23da229f46710ab5d9d0c8f62c9b4557') in 0.002589 seconds 
+  Import took 0.007824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.952422 seconds.
+  path: Assets/AssetsDoAn/Tasty_Characters - Castle Pack/Assets/Prefabs
+  artifactKey: Guid(43d130e739f0b1b46954945c4f0d9ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Tasty_Characters - Castle Pack/Assets/Prefabs using Guid(43d130e739f0b1b46954945c4f0d9ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8711fd29106d90488093db1e8785f7de') in 0.001391 seconds 
+  Import took 0.006231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.745891 seconds.
+  path: Assets/AssetsDoAn/Tasty_Characters - Castle Pack/Assets/textures
+  artifactKey: Guid(3a8ba39c16e40ac4db07cbd5b4456062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Tasty_Characters - Castle Pack/Assets/textures using Guid(3a8ba39c16e40ac4db07cbd5b4456062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f23edad7101eac7952fe87d06e6cd35') in 0.001997 seconds 
+  Import took 0.006823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.086024 seconds.
+  path: Assets/AssetsDoAn/Tasty_Characters - Castle Pack/Assets/textures/Castle_Background.jpg
+  artifactKey: Guid(527af9115dcefbf4ebc13e9bc36447a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Tasty_Characters - Castle Pack/Assets/textures/Castle_Background.jpg using Guid(527af9115dcefbf4ebc13e9bc36447a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9330f76bea82c6f700b6523528621e57') in 0.018683 seconds 
+  Import took 0.022928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/AssetsDoAn/Tasty_Characters - Castle Pack/Assets/textures/PackCastle01.png
+  artifactKey: Guid(f5f1c19ce87450f4b97f8b363746558d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Tasty_Characters - Castle Pack/Assets/textures/PackCastle01.png using Guid(f5f1c19ce87450f4b97f8b363746558d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056155e6aeeb92c723e915f9b1d180ab') in 0.263611 seconds 
+  Import took 0.267676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.016568 seconds.
+  path: Assets/AssetsDoAn/TutorialInfo
+  artifactKey: Guid(49110bb8dcada46328ad741970bce702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/TutorialInfo using Guid(49110bb8dcada46328ad741970bce702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70351a472edd03278fd2d5ff4558427') in 0.002595 seconds 
+  Import took 0.007171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.568341 seconds.
+  path: Assets/AssetsDoAn/TutorialInfo/Icons
+  artifactKey: Guid(8a0c9218a650547d98138cd835033977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/TutorialInfo/Icons using Guid(8a0c9218a650547d98138cd835033977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6888397be704c7c024539a0912313629') in 0.002875 seconds 
+  Import took 0.007655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.554198 seconds.
+  path: Assets/AssetsDoAn/TutorialInfo/Icons/Help_Icon.png
+  artifactKey: Guid(a186f8a87ca4f4d3aa864638ad5dfb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/TutorialInfo/Icons/Help_Icon.png using Guid(a186f8a87ca4f4d3aa864638ad5dfb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f5496436740d895da50d52e31a9920') in 0.007142 seconds 
+  Import took 0.012044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/AssetsDoAn/TutorialInfo/Icons/icon_tutorial_package.png
+  artifactKey: Guid(6756ed7b80223ac4e8f026ce27541de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/TutorialInfo/Icons/icon_tutorial_package.png using Guid(6756ed7b80223ac4e8f026ce27541de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa82dae2dacb2bf6f9799664800fb328') in 0.012207 seconds 
+  Import took 0.016004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.553592 seconds.
+  path: Assets/AssetsDoAn/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6170b652e791f28e2dae01803c8e71bf') in 0.003076 seconds 
+  Import took 0.007716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.423913 seconds.
+  path: Assets/AssetsDoAn/TextMesh Pro/Sprites
+  artifactKey: Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/TextMesh Pro/Sprites using Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96cee1b573425f8b706180e9a6dbf5c9') in 0.002200 seconds 
+  Import took 0.007552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.111130 seconds.
+  path: Assets/AssetsDoAn/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a207a9227f74bf3c18a1870414ffadb9') in 0.007386 seconds 
+  Import took 0.011636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.998315 seconds.
+  path: Assets/AssetsDoAn/Tasty_Characters - Village Pack
+  artifactKey: Guid(ec877e5514caf7e4d9930ac0f0b1a19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Tasty_Characters - Village Pack using Guid(ec877e5514caf7e4d9930ac0f0b1a19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7bddd9691807387d34744240ffa8133') in 0.002952 seconds 
+  Import took 0.007571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.967437 seconds.
+  path: Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets
+  artifactKey: Guid(d5babe6c70aab9f43847016055d5b849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets using Guid(d5babe6c70aab9f43847016055d5b849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66c2baf42990be2bb1eb3e49150f064') in 0.001902 seconds 
+  Import took 0.006772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.529925 seconds.
+  path: Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Textures
+  artifactKey: Guid(16167857540d3c447aa744d8037cc2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Textures using Guid(16167857540d3c447aa744d8037cc2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7cef9a430546a62b21948e44c43e17c') in 0.002900 seconds 
+  Import took 0.007319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.092388 seconds.
+  path: Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Textures/PackVillage01.png
+  artifactKey: Guid(e48ddf4fb7304ce4ab48711eb6617a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Textures/PackVillage01.png using Guid(e48ddf4fb7304ce4ab48711eb6617a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fc13def62a464caf10e5d2d0d9ec22') in 0.231426 seconds 
+  Import took 0.236386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Textures/Village_Background.jpg
+  artifactKey: Guid(d3cc4e67a6d216147bcb9ba62fd80a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Textures/Village_Background.jpg using Guid(d3cc4e67a6d216147bcb9ba62fd80a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040ce3a20ef8e2307b3223a037bd5280') in 0.012345 seconds 
+  Import took 0.016323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.990711 seconds.
+  path: Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs
+  artifactKey: Guid(48082a8b85d92bc46b40fd68a6224119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs using Guid(48082a8b85d92bc46b40fd68a6224119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8a6069c2bd427ee39b60104e5f1a99') in 0.001197 seconds 
+  Import took 0.006057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.210809 seconds.
+  path: Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_00.prefab
+  artifactKey: Guid(5abea54c8ef2d9642ae212b2db4e7e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_00.prefab using Guid(5abea54c8ef2d9642ae212b2db4e7e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5df0712dd38bb16170dba967cd4c66f') in 0.030207 seconds 
+  Import took 0.035227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_15.prefab
+  artifactKey: Guid(e64402314f178404ca9f0a47d58c51d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_15.prefab using Guid(e64402314f178404ca9f0a47d58c51d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef722623e917b61931773791de991ddc') in 0.010188 seconds 
+  Import took 0.014393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_14.prefab
+  artifactKey: Guid(50e1f67b05557144483529657247bc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_14.prefab using Guid(50e1f67b05557144483529657247bc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234f572dc03dbcf2d31d3675237ff872') in 0.010989 seconds 
+  Import took 0.015492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_03.prefab
+  artifactKey: Guid(d102c483fad5a1f48b9b947b6be387ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_03.prefab using Guid(d102c483fad5a1f48b9b947b6be387ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1316f682f6e4a9d340b98e436d3ebc22') in 0.010614 seconds 
+  Import took 0.015744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_02.prefab
+  artifactKey: Guid(0905f6ea03ce46e47a7dec7dac23d012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_02.prefab using Guid(0905f6ea03ce46e47a7dec7dac23d012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65f665fabd16a3e7215202d22dc4a2c') in 0.011469 seconds 
+  Import took 0.015840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_06.prefab
+  artifactKey: Guid(6a6197db4f542ce4dabd71098ed452f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_06.prefab using Guid(6a6197db4f542ce4dabd71098ed452f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ccd83b35e68024f6d5cc4379481044e') in 0.012611 seconds 
+  Import took 0.016716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_10.prefab
+  artifactKey: Guid(6f062a688a5ecd146a4f034451bf8a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_10.prefab using Guid(6f062a688a5ecd146a4f034451bf8a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fbdd332c026acc93a5b17ef69762e95') in 0.011825 seconds 
+  Import took 0.016512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_11.prefab
+  artifactKey: Guid(40ef69fe2ccb2134d98b5ce388cf62b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_11.prefab using Guid(40ef69fe2ccb2134d98b5ce388cf62b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd219b6030dc88c60513a9eea0d872ddc') in 0.011355 seconds 
+  Import took 0.015750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_05.prefab
+  artifactKey: Guid(0ccdc414681c75045bf75f3ebf9e57c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_05.prefab using Guid(0ccdc414681c75045bf75f3ebf9e57c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0ad029c0db3b412332e3bfdb333332') in 0.008705 seconds 
+  Import took 0.013194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_04.prefab
+  artifactKey: Guid(5cb12a150e1831e45959064bbf0a0ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_04.prefab using Guid(5cb12a150e1831e45959064bbf0a0ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3733f8195f9e6c11cdb14b0215238a7') in 0.008037 seconds 
+  Import took 0.012616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_08.prefab
+  artifactKey: Guid(7cdb699f28c96ee4b9e64c83a9a02b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_08.prefab using Guid(7cdb699f28c96ee4b9e64c83a9a02b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d444bb3493ab600a655681f599c74c') in 0.009475 seconds 
+  Import took 0.014640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_09.prefab
+  artifactKey: Guid(99acf764218f36145ab37217615be52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_09.prefab using Guid(99acf764218f36145ab37217615be52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d5b2c4ff565cd4915c8a4f91160d9c') in 0.010433 seconds 
+  Import took 0.015220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_01.prefab
+  artifactKey: Guid(c69f9d338d1268f428c80341860d8223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_01.prefab using Guid(c69f9d338d1268f428c80341860d8223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6f7088af33536c3c79561a2d9dc245') in 0.007919 seconds 
+  Import took 0.012942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_13.prefab
+  artifactKey: Guid(e8cdf8c5d8d360440b78215eb6ef8593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_13.prefab using Guid(e8cdf8c5d8d360440b78215eb6ef8593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5d33d6966b7dc8130aed9af72acf91') in 0.009193 seconds 
+  Import took 0.014063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_12.prefab
+  artifactKey: Guid(6d346bf00349e2f48b2b88e47cd41850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_12.prefab using Guid(6d346bf00349e2f48b2b88e47cd41850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a919a4b34442e4a639d68ff245e04f6') in 0.012121 seconds 
+  Import took 0.016523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_07.prefab
+  artifactKey: Guid(c50ae1e0c3adb6647980fcfc274c276c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Tasty_Characters - Village Pack/Assets/Prefabs/Chara_07.prefab using Guid(c50ae1e0c3adb6647980fcfc274c276c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae5077ac60ad9a70b53ca3659b8601b') in 0.012172 seconds 
+  Import took 0.017553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.446113 seconds.
+  path: Assets/AssetsDoAn/Sunny Land Forest Assets/Artwork/Environment/props
+  artifactKey: Guid(c162b12424990469597a96556299ce8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Sunny Land Forest Assets/Artwork/Environment/props using Guid(c162b12424990469597a96556299ce8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ef887a004ec2184d66fc15f67ce261') in 0.001194 seconds 
+  Import took 0.006367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.113868 seconds.
+  path: Assets/AssetsDoAn/Sunny Land Forest Assets/Artwork/Environment/props/house.png
+  artifactKey: Guid(fedea871f17ee403aba600401b9d9a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Sunny Land Forest Assets/Artwork/Environment/props/house.png using Guid(fedea871f17ee403aba600401b9d9a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1aa1077ea02b34670750a7db3a1b72f') in 0.011301 seconds 
+  Import took 0.017865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/AssetsDoAn/Sunny Land Forest Assets/Artwork/Environment/props/mushroom-brown.png
+  artifactKey: Guid(4417e5e080315474c9cf62428e4551e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Sunny Land Forest Assets/Artwork/Environment/props/mushroom-brown.png using Guid(4417e5e080315474c9cf62428e4551e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420e691680057207ef160e39bb3e60e3') in 0.010053 seconds 
+  Import took 0.014361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/AssetsDoAn/Sunny Land Forest Assets/Artwork/Environment/props/vine.png
+  artifactKey: Guid(07e41a4feae544b6e8ce053545f68e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Sunny Land Forest Assets/Artwork/Environment/props/vine.png using Guid(07e41a4feae544b6e8ce053545f68e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d0b8df5a4186e07254b8899935f54b') in 0.010739 seconds 
+  Import took 0.015448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/AssetsDoAn/Sunny Land Forest Assets/Artwork/Environment/props/rock.png
+  artifactKey: Guid(5a9da1b2511d54f8c82476e3ea9d2b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Sunny Land Forest Assets/Artwork/Environment/props/rock.png using Guid(5a9da1b2511d54f8c82476e3ea9d2b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322eb1b3b01afdacced2958c128b58cc') in 0.008605 seconds 
+  Import took 0.013209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/AssetsDoAn/Sunny Land Forest Assets/Artwork/Environment/props/plant.png
+  artifactKey: Guid(5f8faaf7bc08f478fa9d600f48632355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Sunny Land Forest Assets/Artwork/Environment/props/plant.png using Guid(5f8faaf7bc08f478fa9d600f48632355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55874753f77b296fea6b95176c7bcb71') in 0.008770 seconds 
+  Import took 0.013284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/AssetsDoAn/Sunny Land Forest Assets/Artwork/Environment/props/tree.png
+  artifactKey: Guid(da6a6286a0d4043d1b91c1d6f94bf1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Sunny Land Forest Assets/Artwork/Environment/props/tree.png using Guid(da6a6286a0d4043d1b91c1d6f94bf1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391555f4612989cafd03c6e04fec0715') in 0.010064 seconds 
+  Import took 0.014726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/AssetsDoAn/Sunny Land Forest Assets/Artwork/Environment/props/mushroom-red.png
+  artifactKey: Guid(6c7eac1744b6b4e10b3f1c98b84d5dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Sunny Land Forest Assets/Artwork/Environment/props/mushroom-red.png using Guid(6c7eac1744b6b4e10b3f1c98b84d5dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c357ebb5bdccc6aa887055fb69d60f2') in 0.008715 seconds 
+  Import took 0.013835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.973885 seconds.
+  path: Assets/AssetsDoAn/Cainos
+  artifactKey: Guid(6916dd7f6afb27f448439663d6349128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Cainos using Guid(6916dd7f6afb27f448439663d6349128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c46aa32aa252fb6052d45812c28742') in 0.003115 seconds 
+  Import took 0.007562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.359778 seconds.
+  path: Assets/AssetsDoAn/Cainos/Pixel Art Top Down - Basic/Material
+  artifactKey: Guid(0379c5940f27a7049b6c9e8a3c23041e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Cainos/Pixel Art Top Down - Basic/Material using Guid(0379c5940f27a7049b6c9e8a3c23041e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97149a13b1f8f989d0d9a96134c73cc1') in 0.002952 seconds 
+  Import took 0.008059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.440102 seconds.
+  path: Assets/AssetsDoAn/Cainos/Pixel Art Top Down - Basic/Prefab
+  artifactKey: Guid(4451b78203ce1474caa69f68067a0221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Cainos/Pixel Art Top Down - Basic/Prefab using Guid(4451b78203ce1474caa69f68067a0221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbf68248b1768db62f87cff2ce285af') in 0.002822 seconds 
+  Import took 0.007700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.377177 seconds.
+  path: Assets/AssetsDoAn/Cainos/Pixel Art Top Down - Basic/Texture
+  artifactKey: Guid(4628b48f29e242a459885334c8f8bf10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Cainos/Pixel Art Top Down - Basic/Texture using Guid(4628b48f29e242a459885334c8f8bf10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a8a31a0cd8aa9b148cf583bcf2f920') in 0.003072 seconds 
+  Import took 0.007902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.851187 seconds.
+  path: Assets/TileMap/Wall.prefab
+  artifactKey: Guid(a435881d9ef3df74aba4329b48f5c736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TileMap/Wall.prefab using Guid(a435881d9ef3df74aba4329b48f5c736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b5170e0d8eb15c2db2fb5e8f290fff') in 0.010154 seconds 
+  Import took 0.015049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 158.044599 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG
+  artifactKey: Guid(1e891b8029d454c93a95feb56e9901c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG using Guid(1e891b8029d454c93a95feb56e9901c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5636e9f09c9af46d2675d6ca2166248') in 0.001612 seconds 
+  Import took 0.006293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.305769 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Audio
+  artifactKey: Guid(9517eb89f981b4b84b09b71074ad9b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Audio using Guid(9517eb89f981b4b84b09b71074ad9b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d38a0c730a6b0de5a60311e40049d5d') in 0.001674 seconds 
+  Import took 0.006506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.369086 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art
+  artifactKey: Guid(3f997c216393145e0a5f22a43a0da0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art using Guid(3f997c216393145e0a5f22a43a0da0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d09695b545ff249feb13e73141b8000') in 0.003629 seconds 
+  Import took 0.008513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.663350 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Animations
+  artifactKey: Guid(5d78b3d8ffa8142c3ab563d10d095fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Animations using Guid(5d78b3d8ffa8142c3ab563d10d095fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7bdec73b1a643f2f462faf39514b59') in 0.003645 seconds 
+  Import took 0.008606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.055198 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Animations/Characters
+  artifactKey: Guid(5490aae0fc63c984a9bfc47d6805bc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Animations/Characters using Guid(5490aae0fc63c984a9bfc47d6805bc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8bb16985bd30f3b8331b782fb7d89c') in 0.003184 seconds 
+  Import took 0.008101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.439960 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Animations/Characters/Archer
+  artifactKey: Guid(3c02c21ff299f4e108badd034e2f0e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Animations/Characters/Archer using Guid(3c02c21ff299f4e108badd034e2f0e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc02fac10c9f4445e7ae53a66872a2e') in 0.004139 seconds 
+  Import took 0.009333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.438680 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Prefabs
+  artifactKey: Guid(a682643de78b742dda93b717dff9e832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Prefabs using Guid(a682643de78b742dda93b717dff9e832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c58273edf5d904971b2b7f4f182a94') in 0.001643 seconds 
+  Import took 0.007002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.425224 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Materials
+  artifactKey: Guid(cea2bc9c22d624736a34d388849d8db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Materials using Guid(cea2bc9c22d624736a34d388849d8db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6a9fcbfc01acb762367decc4021f64') in 0.003024 seconds 
+  Import took 0.008040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.367599 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Gameplay Prefabs
+  artifactKey: Guid(107c233aa6c7b4e66ade004f1cfefa64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Gameplay Prefabs using Guid(107c233aa6c7b4e66ade004f1cfefa64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777d59607031a7c2d41f86ce1ee7deb9') in 0.001731 seconds 
+  Import took 0.006650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.417170 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Editor
+  artifactKey: Guid(1a35c0298e47b48ffa9aad323bfa3b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Editor using Guid(1a35c0298e47b48ffa9aad323bfa3b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef0d9548539c606fc1442057a4f98ee') in 0.003912 seconds 
+  Import took 0.009122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.406955 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Cutscene
+  artifactKey: Guid(b9764092e0ac2406399ed44158350005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Cutscene using Guid(b9764092e0ac2406399ed44158350005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f6e7b679d4d62824aed453d6ad447d') in 0.003675 seconds 
+  Import took 0.008556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.539419 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites
+  artifactKey: Guid(41c83a1bfc4964a3ca4b3120a0ae491f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites using Guid(41c83a1bfc4964a3ca4b3120a0ae491f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e0ef8f3255618837da0b5f9e31012a') in 0.003435 seconds 
+  Import took 0.008937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.970833 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Animated Environment
+  artifactKey: Guid(061f0d3f22cdeb14ab9c1680b6aa0973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Animated Environment using Guid(061f0d3f22cdeb14ab9c1680b6aa0973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb70bc9b9b860ccb91492fc5c239cab') in 0.003502 seconds 
+  Import took 0.008059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094637 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_HighGrass_Sheet.png
+  artifactKey: Guid(41a5838cb902bfa43b3d51f653cd804a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_HighGrass_Sheet.png using Guid(41a5838cb902bfa43b3d51f653cd804a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a976fa8b781d7d5305af0a57bfccfd') in 0.172353 seconds 
+  Import took 0.177587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_WaterCorners_Sheet.png
+  artifactKey: Guid(cb2c6dcd19a1c244c9fcc9bd04cebd2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_WaterCorners_Sheet.png using Guid(cb2c6dcd19a1c244c9fcc9bd04cebd2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd75af7c3576152ee3b8294e26d793ff') in 0.087985 seconds 
+  Import took 0.092269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_Leaves_Sheet.png
+  artifactKey: Guid(96e993a3f475b384f845f47980d6d932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_Leaves_Sheet.png using Guid(96e993a3f475b384f845f47980d6d932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a655c94d236dccfa785edee41f38b72') in 0.021093 seconds 
+  Import took 0.024941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_Water_Sheet.png
+  artifactKey: Guid(aaa735c5fdc695d4691e911ab4338879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_Water_Sheet.png using Guid(aaa735c5fdc695d4691e911ab4338879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55cf880dc101049827f1de854574de08') in 0.161141 seconds 
+  Import took 0.165708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_Tree1_Sheet.png
+  artifactKey: Guid(c12a9ef0e75f18949a86a10822cf29f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_Tree1_Sheet.png using Guid(c12a9ef0e75f18949a86a10822cf29f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39798682254998b74947ecf4725772e7') in 0.031141 seconds 
+  Import took 0.035281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_Smoke_Sheet.png
+  artifactKey: Guid(5cc535ba862941440a276a5629cd0391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_Smoke_Sheet.png using Guid(5cc535ba862941440a276a5629cd0391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b86a3e140c2adcd9f72b969a8cdd54a') in 0.026380 seconds 
+  Import took 0.031010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_Tree2_Sheet.png
+  artifactKey: Guid(4c4775fa3485eda4197558b5d1206d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_Tree2_Sheet.png using Guid(4c4775fa3485eda4197558b5d1206d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde29c20e6954cf3554dc143f2b0cb9b') in 0.029441 seconds 
+  Import took 0.033518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_Tree3_Sheet.png
+  artifactKey: Guid(12d14b4f7de20ff4da9bc415c17c4162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Animated Environment/Animated_Tree3_Sheet.png using Guid(12d14b4f7de20ff4da9bc415c17c4162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a172e0f3c94442690441ef3fabcd286e') in 0.028082 seconds 
+  Import took 0.032038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.422666 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Animated Environment/Materials
+  artifactKey: Guid(fd42c4281a96eff4eaaf130dfb11f1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Animated Environment/Materials using Guid(fd42c4281a96eff4eaaf130dfb11f1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f5665b721356c319f5d19a196cb051') in 0.001464 seconds 
+  Import took 0.006178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093098 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Animated Environment/Materials/animated tree.mat
+  artifactKey: Guid(358e783f7c908e844b7039f884f9af6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Animated Environment/Materials/animated tree.mat using Guid(358e783f7c908e844b7039f884f9af6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79e7c7c75e1ce53bdf758105c998caf') in 0.018905 seconds 
+  Import took 0.023101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Animated Environment/Materials/water.mat
+  artifactKey: Guid(3671cfb5fed740d45b83f09576b62db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Animated Environment/Materials/water.mat using Guid(3671cfb5fed740d45b83f09576b62db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c721322832be4134d6712d7cf3de753b') in 0.008067 seconds 
+  Import took 0.012062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.688741 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/UI
+  artifactKey: Guid(0165c90fd8d6e3340982e12bc998800e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/UI using Guid(0165c90fd8d6e3340982e12bc998800e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91cfbf30783c5dd99d37fc74c24784c4') in 0.003170 seconds 
+  Import took 0.008162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.399483 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Floors
+  artifactKey: Guid(56f572e143830fb49b08369ff4370f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Floors using Guid(56f572e143830fb49b08369ff4370f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45a96f1e824a6f53552ef00bb5f226e') in 0.001984 seconds 
+  Import took 0.006681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.114005 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Floors/Tiles_DarkGrasstoGrass.png
+  artifactKey: Guid(c0a5a87d19188f54ebc44df12c0ef2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Floors/Tiles_DarkGrasstoGrass.png using Guid(c0a5a87d19188f54ebc44df12c0ef2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '155729de4ef58ba8f016ac1a34d671dd') in 0.027247 seconds 
+  Import took 0.034220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Floors/Tiles_GrassVariant.png
+  artifactKey: Guid(84497fb83bb127248be9d1bc49bfd586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Floors/Tiles_GrassVariant.png using Guid(84497fb83bb127248be9d1bc49bfd586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1c1098dd256be556c02714fa5acf41') in 0.031813 seconds 
+  Import took 0.035670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Floors/Tiles_Grass.png
+  artifactKey: Guid(f0c5dcd8670748f44885d4dd86ca8c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Floors/Tiles_Grass.png using Guid(f0c5dcd8670748f44885d4dd86ca8c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c8afdc807c225dd60d4892a7478f2c') in 0.031502 seconds 
+  Import took 0.036013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Floors/Tiles_DesertToGrass.png
+  artifactKey: Guid(e1a1413c04362fd45b5c32ba9200e42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Floors/Tiles_DesertToGrass.png using Guid(e1a1413c04362fd45b5c32ba9200e42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc47ac996e196a5e145c8d0100caa37') in 0.032733 seconds 
+  Import took 0.036582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Floors/Tiles_Desert.png
+  artifactKey: Guid(3fee7df828e6f284bbcf208bce9c5e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Floors/Tiles_Desert.png using Guid(3fee7df828e6f284bbcf208bce9c5e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2340e2b5ceca3e28f00d222b16454cd1') in 0.030551 seconds 
+  Import took 0.034612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Floors/Tiles_GrassToDesert.png
+  artifactKey: Guid(78ad6eb3988a8e440bbf2a9ecc2d918f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Floors/Tiles_GrassToDesert.png using Guid(78ad6eb3988a8e440bbf2a9ecc2d918f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36bda2f547bea602bc1824b598bce37f') in 0.030146 seconds 
+  Import took 0.033934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.794579 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Environment
+  artifactKey: Guid(66542f97cde2db34d8edbeabef48f6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Environment using Guid(66542f97cde2db34d8edbeabef48f6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7268586f0d1b4ca4868bcc1e0f530264') in 0.002903 seconds 
+  Import took 0.008059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097456 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Environment/Cloud1.png
+  artifactKey: Guid(3dd7a0a47117acb40adbfe0778729b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Environment/Cloud1.png using Guid(3dd7a0a47117acb40adbfe0778729b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833ec19f76e467bfe8102d086617263b') in 0.014711 seconds 
+  Import took 0.020085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Environment/Cloud2.png
+  artifactKey: Guid(8770f05271826164aadd939d4728d3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Environment/Cloud2.png using Guid(8770f05271826164aadd939d4728d3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ff91c04ef0a792cb73c644b653d7c3') in 0.012132 seconds 
+  Import took 0.015904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Environment/Fence.png
+  artifactKey: Guid(a53d2c44340a6d14ea260ceefba9a1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Environment/Fence.png using Guid(a53d2c44340a6d14ea260ceefba9a1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb561e2888bf34de36a3ca060ac381b') in 0.047468 seconds 
+  Import took 0.051466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Environment/HouseRoof.png
+  artifactKey: Guid(b694b22057cf35c4e96748f66d3f1f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Environment/HouseRoof.png using Guid(b694b22057cf35c4e96748f66d3f1f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3825ae43315e5af14acb9a3a55afa1') in 0.012274 seconds 
+  Import took 0.016114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Environment/static environment objects.png
+  artifactKey: Guid(e10c13642d970a64cbfb16f898fcd46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Environment/static environment objects.png using Guid(e10c13642d970a64cbfb16f898fcd46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f612f85c4cc1c91c70b91da5f1c5ad') in 0.032258 seconds 
+  Import took 0.036217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Environment/RockCliff.png
+  artifactKey: Guid(b63a2439c80a4fe45bfe85f860f4b8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Environment/RockCliff.png using Guid(b63a2439c80a4fe45bfe85f860f4b8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0768506ac844e60ea5df234800d405be') in 0.018079 seconds 
+  Import took 0.021955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Environment/House.png
+  artifactKey: Guid(8a9662b554744da4e97ed5bba5353115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Environment/House.png using Guid(8a9662b554744da4e97ed5bba5353115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162910cc794bf90f7fde55a59407211b') in 0.073324 seconds 
+  Import took 0.077473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Environment/HouseChimney.png
+  artifactKey: Guid(abdcf40be89574346bcdb8a45022ba72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Environment/HouseChimney.png using Guid(abdcf40be89574346bcdb8a45022ba72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e582e1f88d9240d18faea7fc4766f31') in 0.009580 seconds 
+  Import took 0.013827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Environment/Cloud3.png
+  artifactKey: Guid(f3fd60347f10d1f46aa6495101e7de38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Environment/Cloud3.png using Guid(f3fd60347f10d1f46aa6495101e7de38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141633b95c9c4162f73617e7fe27c35f') in 0.009433 seconds 
+  Import took 0.013974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Environment/Items.png
+  artifactKey: Guid(a4dbce958f01af8489942a973bfe20c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Environment/Items.png using Guid(a4dbce958f01af8489942a973bfe20c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366763831d25819cf7452a820bc7a745') in 0.028186 seconds 
+  Import took 0.032179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Environment/Pipeline_Walkpath.png
+  artifactKey: Guid(4567a16d0e0692048b18bfbb59a5b426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Environment/Pipeline_Walkpath.png using Guid(4567a16d0e0692048b18bfbb59a5b426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f96c2d0c6ebe7f5b0f9194d497c68e') in 0.040438 seconds 
+  Import took 0.044143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Environment/Pipeline_StoneWalkpath.png
+  artifactKey: Guid(b2cf06612d923d6438d12b0d3a2c7ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Creator Kit - RPG/Art/Sprites/Environment/Pipeline_StoneWalkpath.png using Guid(b2cf06612d923d6438d12b0d3a2c7ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ff235875e745b1691ba7eedbea4706') in 0.040073 seconds 
+  Import took 0.044087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.895849 seconds.
+  path: Assets/Scenes/Level 2.unity
+  artifactKey: Guid(70b3e75dd5e46ca4fb0b13ebbdddfdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 2.unity using Guid(70b3e75dd5e46ca4fb0b13ebbdddfdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612c61d684d623e9d950ebc8c1388bdd') in 0.001791 seconds 
+  Import took 0.006920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 209.659713 seconds.
+  path: Assets/AssetsDoAn/Sunny Land Forest Assets/Artwork/Environment/tileset.png
+  artifactKey: Guid(2eeb0d4e8888f48459040781a511455e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsDoAn/Sunny Land Forest Assets/Artwork/Environment/tileset.png using Guid(2eeb0d4e8888f48459040781a511455e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489bf4d7602d9d70b82bcbab5cd0dd9b') in 0.236053 seconds 
+  Import took 0.241237 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
